@@ -89,7 +89,7 @@ install(DIRECTORY include/
   FILES_MATCHING PATTERN "*.hpp"
   PATTERN ".git" EXCLUDE)
 
-install(TARGETS ${PSS_SHARED_LIB_NAME} ${PSS_STATIC_LIB_NAME}
+install(TARGETS pss pss_static
         LIBRARY DESTINATION lib
         ARCHIVE DESTINATION lib)
  
