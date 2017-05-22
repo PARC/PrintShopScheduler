@@ -1,0 +1,1366 @@
+<?xml version="1.0"?>
+<!DOCTYPE Shop SYSTEM "http://www.parc.com/PSS/xml/Shop.dtd">
+
+<Shop Name="NewShop" Type="" Status="0" Comment="" Creator="PSS" Version="2.0.4">
+  <ShopConfiguration CellAssignmentPolicy="minmax" SequencingPolicy="earliestDue" BatchLimit="0"/>
+  <Schedule>
+    <WeekdaySchedule Weekday="Daily">
+      <TimeSlot>
+        <TimeStart>
+          <Time Hour="0" Minute="0" Second="0"/>
+        </TimeStart>
+        <TimeStop>
+          <Time Hour="23" Minute="59" Second="59"/>
+        </TimeStop>
+      </TimeSlot>
+    </WeekdaySchedule>
+  </Schedule>
+  <Station Name="Oce 466-1" Type="" Status="0" Comment=""
+        Barcode="9901" StationID="9901" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="10250.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="Oce 466-2" Type="" Status="0" Comment=""
+        Barcode="9900" StationID="9900" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="10250.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="Oce 372" Type="" Status="0" Comment=""
+        Barcode="9902" StationID="9902" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="8184.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="IBM 4000 No MICR" Type="" Status="0" Comment=""
+        Barcode="9913" StationID="9913" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="11040.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="IBM 4000-1" Type="" Status="0" Comment=""
+        Barcode="9912" StationID="9912" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="7800.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="IBM 4000-2" Type="" Status="0" Comment=""
+        Barcode="9911" StationID="9911" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="7800.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="IBM 4000-3" Type="" Status="0" Comment=""
+        Barcode="9910" StationID="9910" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="7800.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="IBM 4000-4" Type="" Status="0" Comment=""
+        Barcode="9909" StationID="9909" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="7800.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="IBM 4000-5" Type="" Status="0" Comment=""
+        Barcode="9907" StationID="9907" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Print" OperatorDemand="0.33" SetupTime="10.0"
+          SpeedValue="7800.0" SpeedUnit="Pages" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Print"/>
+      <Attributes>
+        <Attr  Name="Client" Value="2" />
+        <Attr  Name="Sides" Value="0" />
+        <Attr  Name="Formwidth" Value="5" />
+        <Attr  Name="Formlength" Value="5" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter-1" Type="" Status="0" Comment=""
+        Barcode="9923" StationID="9923" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="1920.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter-4" Type="" Status="0" Comment=""
+        Barcode="9920" StationID="9920" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="1920.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter-3" Type="" Status="0" Comment=""
+        Barcode="9921" StationID="9921" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="1920.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter-2" Type="" Status="0" Comment=""
+        Barcode="9922" StationID="9922" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="1920.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter No Tower-1" Type="" Status="0" Comment=""
+        Barcode="9930" StationID="9930" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="2240.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter No Tower-2" Type="" Status="0" Comment=""
+        Barcode="9929" StationID="9929" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="2240.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter No Tower-3" Type="" Status="0" Comment=""
+        Barcode="9928" StationID="9928" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="2240.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter No Tower-4" Type="" Status="0" Comment=""
+        Barcode="9927" StationID="9927" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="2240.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter No Tower-5" Type="" Status="0" Comment=""
+        Barcode="9926" StationID="9926" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="2240.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter-5" Type="" Status="0" Comment=""
+        Barcode="9903" StationID="9903" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="1920.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter No Tower-6" Type="" Status="0" Comment=""
+        Barcode="9904" StationID="9904" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="2240.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter No Tower-7" Type="" Status="0" Comment=""
+        Barcode="9905" StationID="9905" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="2240.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter-6" Type="" Status="0" Comment=""
+        Barcode="9906" StationID="9906" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="1920.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Station Name="12 Station Inserter-7" Type="" Status="0" Comment=""
+        Barcode="9908" StationID="9908" HighCapacity="false">
+    <Geometry>
+      <Footprint>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Footprint>
+      <Position>
+        <XDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </XDimension>
+        <YDimension>
+          <Dimension Value="0.0" Unit=""/>
+        </YDimension>
+      </Position>
+      <Orientation Value="0"/>
+    </Geometry>
+    <Schedule>
+    </Schedule>
+    <SimpleFunctionSequence Name="Insert" OperatorDemand="0.5" SetupTime="10.0"
+          SpeedValue="1920.0" SpeedUnit="Items" SpeedVariation="0.0"
+          TimeUnit="hour" Quality="1" MinBatch="1" Barcode="8800">
+      <SimpleFunction Name="Insert"/>
+      <Attributes>
+        <Attr  Name="Formtype" Value="10" />
+        <Attr  Name="Client" Value="2" />
+      </Attributes>
+    </SimpleFunctionSequence>
+  </Station>
+  <Operator Name="Operator A10" Type="" Status="0" Comment=""
+        ResourceID="1000" Barcode="1000" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A2" Type="" Status="0" Comment=""
+        ResourceID="1001" Barcode="1001" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A3" Type="" Status="0" Comment=""
+        ResourceID="1002" Barcode="1002" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A4" Type="" Status="0" Comment=""
+        ResourceID="1003" Barcode="1003" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A5" Type="" Status="0" Comment=""
+        ResourceID="1004" Barcode="1004" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A6" Type="" Status="0" Comment=""
+        ResourceID="1005" Barcode="1005" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A7" Type="" Status="0" Comment=""
+        ResourceID="1006" Barcode="1006" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A8" Type="" Status="0" Comment=""
+        ResourceID="1007" Barcode="1007" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B1" Type="" Status="0" Comment=""
+        ResourceID="1008" Barcode="1008" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B2" Type="" Status="0" Comment=""
+        ResourceID="1009" Barcode="1009" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B3" Type="" Status="0" Comment=""
+        ResourceID="10010" Barcode="10010" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B4" Type="" Status="0" Comment=""
+        ResourceID="10011" Barcode="10011" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B5" Type="" Status="0" Comment=""
+        ResourceID="10012" Barcode="10012" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B6" Type="" Status="0" Comment=""
+        ResourceID="10013" Barcode="10013" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B7" Type="" Status="0" Comment=""
+        ResourceID="10014" Barcode="10014" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B8" Type="" Status="0" Comment=""
+        ResourceID="10015" Barcode="10015" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C1" Type="" Status="0" Comment=""
+        ResourceID="10016" Barcode="10016" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C2" Type="" Status="0" Comment=""
+        ResourceID="10017" Barcode="10017" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C8" Type="" Status="0" Comment=""
+        ResourceID="10018" Barcode="10018" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C3" Type="" Status="0" Comment=""
+        ResourceID="10019" Barcode="10019" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C4" Type="" Status="0" Comment=""
+        ResourceID="10020" Barcode="10020" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C5" Type="" Status="0" Comment=""
+        ResourceID="10021" Barcode="10021" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C6" Type="" Status="0" Comment=""
+        ResourceID="10022" Barcode="10022" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C7" Type="" Status="0" Comment=""
+        ResourceID="10023" Barcode="10023" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A9" Type="" Status="0" Comment=""
+        ResourceID="10024" Barcode="10024" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B9" Type="" Status="0" Comment=""
+        ResourceID="10025" Barcode="10025" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C9" Type="" Status="0" Comment=""
+        ResourceID="10026" Barcode="10026" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator C10" Type="" Status="0" Comment=""
+        ResourceID="10027" Barcode="10027" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="0" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator B10" Type="" Status="0" Comment=""
+        ResourceID="10028" Barcode="10028" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="23" Minute="59" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Operator Name="Operator A1" Type="" Status="0" Comment=""
+        ResourceID="10029" Barcode="10029" >
+    <Schedule>
+      <WeekdaySchedule Weekday="Daily">
+        <TimeSlot>
+          <TimeStart>
+            <Time Hour="8" Minute="0" Second="0"/>
+          </TimeStart>
+          <TimeStop>
+            <Time Hour="16" Minute="0" Second="0"/>
+          </TimeStop>
+        </TimeSlot>
+      </WeekdaySchedule>
+    </Schedule>
+    <OperatorSkill Skill="Print"/>
+    <OperatorSkill Skill="Insert"/>
+  </Operator>
+  <Cell CellId="null" Name="New cell" Type="" Status="0" Comment="">
+    <CellConfiguration ControlPolicy="0" ControlParameter="1" Batching="true"
+          OperatorLimited="true" UseOperatorSkills="true" UseOperatorSchedules="true"/>
+    <Stations>
+      <Reference ID="9901"/>
+      <Reference ID="9900"/>
+      <Reference ID="9902"/>
+      <Reference ID="9913"/>
+      <Reference ID="9912"/>
+      <Reference ID="9911"/>
+      <Reference ID="9910"/>
+      <Reference ID="9909"/>
+      <Reference ID="9907"/>
+      <Reference ID="9923"/>
+      <Reference ID="9920"/>
+      <Reference ID="9921"/>
+      <Reference ID="9922"/>
+      <Reference ID="9930"/>
+      <Reference ID="9929"/>
+      <Reference ID="9928"/>
+      <Reference ID="9927"/>
+      <Reference ID="9926"/>
+      <Reference ID="9903"/>
+      <Reference ID="9904"/>
+      <Reference ID="9905"/>
+      <Reference ID="9906"/>
+      <Reference ID="9908"/>
+    </Stations>
+    <Operators>
+      <Reference ID="1000"/>
+      <Reference ID="1001"/>
+      <Reference ID="1002"/>
+      <Reference ID="1003"/>
+      <Reference ID="1004"/>
+      <Reference ID="1005"/>
+      <Reference ID="1006"/>
+      <Reference ID="1007"/>
+      <Reference ID="1008"/>
+      <Reference ID="1009"/>
+      <Reference ID="10010"/>
+      <Reference ID="10011"/>
+      <Reference ID="10012"/>
+      <Reference ID="10013"/>
+      <Reference ID="10014"/>
+      <Reference ID="10015"/>
+      <Reference ID="10016"/>
+      <Reference ID="10017"/>
+      <Reference ID="10018"/>
+      <Reference ID="10019"/>
+      <Reference ID="10020"/>
+      <Reference ID="10021"/>
+      <Reference ID="10022"/>
+      <Reference ID="10023"/>
+      <Reference ID="10024"/>
+      <Reference ID="10025"/>
+      <Reference ID="10026"/>
+      <Reference ID="10027"/>
+      <Reference ID="10028"/>
+      <Reference ID="10029"/>
+    </Operators>
+  </Cell>
+</Shop>

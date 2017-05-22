@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE MultiSiteJobList SYSTEM "http://www.parc.com/PSS/xml/MultiSiteJobList.dtd">
+<MultiSiteJobList Name="MyMultiSiteJobList" Type="" Status="0" Comment="" Creator="PSS" Version="2.0.4">
+  <JobList Name="ExampleJobList1" File="example_joblist1.jls" HomeShop="ExampleShop1" Outsourceable="false"/>
+  <JobList Name="ExampleJobList2" File="example_joblist2.jls" HomeShop="ExampleShop2" Outsourceable="false"/>
+  <JobList Name="ExampleJobList3" File="example_joblist3.jls" HomeShop="ExampleShop3" Outsourceable="false"/>
+  <JobList Name="ExampleJobList4" File="example_joblist4.jls" HomeShop="ExampleShop3" Outsourceable="true"/>
+  <JobList Name="ExampleJobList5" File="example_joblist5.jls" HomeShop="ExampleShop2" Outsourceable="true"/>
+</MultiSiteJobList>

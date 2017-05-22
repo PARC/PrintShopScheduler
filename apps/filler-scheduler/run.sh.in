@@ -1,0 +1,4 @@
+#!/bin/bash
+
+PSS_DATA_PATH=@PSS_DATA_PATH@
+./pssf ${PSS_DATA_PATH}/example.shp ${PSS_DATA_PATH}/example_joblist1.jls output.csv output.jls ${PSS_DATA_PATH}/example_joblist2.jls

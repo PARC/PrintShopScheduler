@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!DOCTYPE JobList SYSTEM "http://www.parc.com/PSS/xml/JobList.dtd">
+
+<JobList Name="Imported Job Data_2010-03-08_09-38-22" Type="" Status="0" Comment="" Creator="PSS" Version="2.0.4">
+  <Job Name="1" Type="" Status="0" Comment="" JobID="1" JobPartID="1"
+        Priority="5" Product="" NumBatches="0" IsRoute="false">
+    <ArrivalDate>
+      <Day Day="1" Month="4" Year="2007"/>
+      <Time Hour="0" Minute="0" Second="0"/>
+    </ArrivalDate>
+    <DueDate>
+      <Day Day="3" Month="4" Year="2007"/>
+      <Time Hour="0" Minute="0" Second="0"/>
+    </DueDate>
+    <Quantity Value="6970" Unit="Items"/>
+    <Resources>
+      <Resource Name="Print-Output" Type="" Status="0" Comment=""
+            ID="Print-Output" Class="0" PartNumber="null" Quality="0" Media="null">
+        <Quantity Value="6243" Unit="Pages"/>
+      </Resource>
+      <Resource Name="Insert-Output" Type="" Status="0" Comment=""
+            ID="Insert-Output" Class="0" PartNumber="null" Quality="0" Media="null">
+        <Quantity Value="6970" Unit="Items"/>
+      </Resource>
+    </Resources>
+    <JobStep Name="Insert" Type="" Status="0" Comment="" Function="Insert" AssignedToCell="" Large="false">
+      <InputResources>
+        <Reference ID="Print-Output"/>
+      </InputResources>
+      <OutputResources>
+        <Reference ID="Insert-Output"/>
+      </OutputResources>
+      <Events>
+      </Events>
+      <Attributes>
+        <Attr  Name="Formtype" Value="CC 1" />
+        <Attr  Name="Client" Value="5623" />
+      </Attributes>
+      <JobStep Name="Print" Type="" Status="0" Comment="" Function="Print" AssignedToCell="" Large="false">
+        <InputResources>
+        </InputResources>
+        <OutputResources>
+          <Reference ID="Print-Output"/>
+        </OutputResources>
+        <Events>
+        </Events>
+        <Attributes>
+          <Attr  Name="Client" Value="5624" />
+          <Attr  Name="Sides" Value="Duplex" />
+          <Attr  Name="Formwidth" Value="18" />
+          <Attr  Name="Formlength" Value="11" />
+        </Attributes>
+      </JobStep>
+    </JobStep>
+  </Job>
+  <Job Name="2" Type="" Status="0" Comment="" JobID="2" JobPartID="1"
+        Priority="5" Product="" NumBatches="0" IsRoute="false">
+    <ArrivalDate>
+      <Day Day="1" Month="4" Year="2007"/>
+      <Time Hour="0" Minute="0" Second="0"/>
+    </ArrivalDate>
+    <DueDate>
+      <Day Day="3" Month="4" Year="2007"/>
+      <Time Hour="0" Minute="0" Second="0"/>
+    </DueDate>
+    <Quantity Value="191" Unit="Items"/>
+    <Resources>
+      <Resource Name="Print-Output" Type="" Status="0" Comment=""
+            ID="Print-Output" Class="0" PartNumber="null" Quality="0" Media="null">
+        <Quantity Value="108" Unit="Pages"/>
+      </Resource>
+      <Resource Name="Insert-Output" Type="" Status="0" Comment=""
+            ID="Insert-Output" Class="0" PartNumber="null" Quality="0" Media="null">
+        <Quantity Value="191" Unit="Items"/>
+      </Resource>
+    </Resources>
+    <JobStep Name="Insert" Type="" Status="0" Comment="" Function="Insert" AssignedToCell="" Large="false">
+      <InputResources>
+        <Reference ID="Print-Output"/>
+      </InputResources>
+      <OutputResources>
+        <Reference ID="Insert-Output"/>
+      </OutputResources>
+      <Events>
+      </Events>
+      <Attributes>
+        <Attr  Name="Formtype" Value="CC 1" />
+        <Attr  Name="Client" Value="5624" />
+      </Attributes>
+      <JobStep Name="Print" Type="" Status="0" Comment="" Function="Print" AssignedToCell="" Large="false">
+        <InputResources>
+        </InputResources>
+        <OutputResources>
+          <Reference ID="Print-Output"/>
+        </OutputResources>
+        <Events>
+        </Events>
+        <Attributes>
+          <Attr  Name="Client" Value="5624" />
+          <Attr  Name="Sides" Value="Duplex" />
+          <Attr  Name="Formwidth" Value="18" />
+          <Attr  Name="Formlength" Value="11" />
+        </Attributes>
+      </JobStep>
+    </JobStep>
+  </Job>
+</JobList>

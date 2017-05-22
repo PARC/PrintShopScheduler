@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CURRENT_DIR=`pwd`
+EXE_FULL_PATH=`readlink -f pssm`
+PSS_DATA_PATH=@PSS_DATA_PATH@
+pushd ${PSS_DATA_PATH}
+${EXE_FULL_PATH} example_multi_site_shop.mss example_multi_site_jobs.msj ${CURRENT_DIR}/output.csv ${CURRENT_DIR}/output.jls
+popd
